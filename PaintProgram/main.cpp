@@ -9,7 +9,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
     LPTSTR	  lpCmdLine,
     int		  nCmdShow)
 {
-    char	  szAppName[] = "예제";
+    char	  szAppName[] = "김나영 페인트 프로그램";
     HWND	  hWnd;
     MSG      msg;
     WNDCLASS wndclass;
