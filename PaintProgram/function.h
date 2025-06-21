@@ -17,7 +17,6 @@ extern int redPen, greenPen, bluePen, redBrush, greenBrush, blueBrush;
 extern int penWidth;
 extern int g_nWidth, g_nHeight;
 extern int figureStyle;
-extern int figureStyle;
 extern int defaultEllipse, defaultRect, defaultRoundRect;
 extern int penStyle; //PS_SOLID;
 extern int hatchStyle; //채워져있는 상태

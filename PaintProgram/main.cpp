@@ -67,7 +67,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
 
     switch (message)
     {
-        //메뉴 보여주기
     case WM_SIZE:
         hdc = GetDC(hWnd);
         g_nHeight = HIWORD(lParam);

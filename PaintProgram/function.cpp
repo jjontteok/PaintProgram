@@ -1,5 +1,12 @@
 #include "function.h"
 
+//static int figureStyle = -1;
+//static int defaultEllipse = 1, defaultRect = 1, defaultRoundRect = 1;
+//static int penStyle = 0; //PS_SOLID;
+//static int hatchStyle = HS_FILL; //채워져있는 상태
+//static int textStyle = 0;
+//static int eraserStyle = 0;
+
 void __Line(HDC hdc, int x1, int y1, int x2, int y2, int thickness, int penStyle, COLORREF crPen) {
     HPEN oldPen, newPen;
     newPen = CreatePen(penStyle, thickness, crPen);
